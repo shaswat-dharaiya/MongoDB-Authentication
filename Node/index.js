@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 const bodyParser = require('body-parser')
-const {mongoUrl} = require('./keys')
+const {mongoUrl} = require('../../keys')
 const mongoose = require('mongoose')
 
 require('./Model/User')

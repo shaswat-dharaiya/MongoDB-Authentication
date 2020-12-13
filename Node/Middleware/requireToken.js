@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const mongoose = require('mongoose');
-const { jwtKey } = require('../keys');
+const {mongoUrl} = require('../../../keys');
 const User = mongoose.model('User')
 
 const requireToken = (req, res, next) => {
