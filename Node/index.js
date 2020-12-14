@@ -26,7 +26,8 @@ mongoose.connection.on('error', (err) => {
 })
 
 app.get('/', requireToken,(req,res) => {
-    res.send(`Welcome ${req.user.email}`)
+    console.log({email:req.user.email})
+    res.send({email:req.user.email})
 }
 )
 

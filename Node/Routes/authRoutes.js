@@ -2,9 +2,11 @@ const express = require('express')
 const mongoose = require('mongoose')
 const router = express.Router()
 const jwt = require('jsonwebtoken')
-const {mongoUrl} = require('../../../keys')
+const {mongoUrl, jwtKey} = require('../../../keys')
 
 const User = mongoose.model('User');
+
+// For Testing the server
 
 // router.get('/', (req,res) => {
 //     console.log(req.body)
@@ -14,8 +16,11 @@ const User = mongoose.model('User');
 // router.post('/', (req,res) => {
 //     console.log(req.body)
 //     const {email, password} = req.body
+//     console.log(email, pas)
 //     res.send('Hello POST')
 // })
+
+// Actual Function
 
 router.post('/signUp', async (req, res) => {    
     try{
