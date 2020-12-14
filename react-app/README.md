@@ -20,8 +20,8 @@ Project is created with:
 
 ## Features
 * Sign Up
-<img src="images/SignUp.jpg" alt="Sign Up" width="200"/>
+  <img src="images/SignUp.jpg" alt="Sign Up" width="200"/>
 * Login
-<img src="images/Login.jpg" alt="Sign Up" width="200"/>
+  <img src="images/Login.jpg" alt="Sign Up" width="200"/>
 * Home
-<img src="images/Home.jpg" alt="Sign Up" width="200"/>
+  <img src="images/Home.jpg" alt="Sign Up" width="200"/>
