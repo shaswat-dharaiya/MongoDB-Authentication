@@ -3,9 +3,9 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technology](#technology)
+* [Packages](#packages)
 * [Features](#features)
-* [To-Do](#to-Do)
-* [To-Do](#to-Do)
+* [Functionality](#functionality)
 
 ## General info
 This directory contains Back-End of the Project. It is developed using MongoDB & Node.js.
