@@ -28,7 +28,7 @@ Project is created with:
 * Validating a user
 
 ## Functionality
-* Define and Import DB Schema from *User.js* file
+* Define and Import DB Schema from [User.js](https://github.com/shaswat-dharaiya/MongoDB-Authentication/blob/main/Node/Model/User.js) file
 ```
 //This is User.js file
 const mongoose = require('mongoose')
@@ -111,7 +111,7 @@ mongoose.connection.on('error', (err) => {
     console.log('Mongo not Connected', console.err)
 })
 ```
-* Authentication routes(*authRoutes.js* file) has two parts.
+* Authentication routes([authRoutes.js](https://github.com/shaswat-dharaiya/MongoDB-Authentication/blob/main/Node/Routes/authRoutes.js) file) has two parts.
   1. Sign Up:
   ```
   // 'async' & 'await' are used for syncing the process.
@@ -150,7 +150,7 @@ mongoose.connection.on('error', (err) => {
     }
   })
   ```
-* JSON Web Token Generation is used to login an authorized user (*requireToken.js* file). This is the middleware of the Back-end process.
+* JSON Web Token Generation is used to login an authorized user ([requireToken.js](https://github.com/shaswat-dharaiya/MongoDB-Authentication/blob/main/Node/Middleware/requireToken.js) file). This is the middleware of the Back-end process.
 ```
 // Import necessary files
 const jwt = require('jsonwebtoken')
